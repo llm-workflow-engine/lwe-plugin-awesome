@@ -12,6 +12,9 @@ DEFAULT_PROMPTS_TEMP_FILENAME = "awesome-prompts.csv"
 DEFAULT_TIMEOUT = 5
 
 class Awesome(Plugin):
+    """
+    Use prompts from Awesome ChatGPT Prompts
+    """
 
     def default_config(self):
         return {
